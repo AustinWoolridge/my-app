@@ -1,0 +1,29 @@
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.App-header {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 0.5em;
+    font-size: 1em;
+    border: 2px solid #000000; /* Add a border to the header */
+}
+
+.myButton {
+    display: inline-block;
+    background-color: #d0d0d0; /* Set the background color for the buttons */
+    border-radius: 20px;
+    padding: 0.5em;
+    margin: 0.5em;
+    font-size: 0.7em;
+    color: #000000; /* Set text color for the buttons */
+    cursor: pointer;
+}
+
+.myButton:hover {
+    background-color: #b0b0b0; /* Set the darker background color for button hover */
+}
